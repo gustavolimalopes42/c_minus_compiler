@@ -1,0 +1,16 @@
+int fibonacci(int num){
+    int prim;
+    int segundo;
+    if(num == 1) return 0;
+    if(num == 2) return 1;
+    prim = fibonacci(num-2);
+    segundo = fibonacci(num-1);
+    return prim+segundo;
+}
+
+int main(void){
+    int num;
+    num = 10;
+    output(fibonacci(num));
+    return 0;
+}
