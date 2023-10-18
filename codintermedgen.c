@@ -16,7 +16,7 @@
 /* tmpOffset is the memory offset for temps
    It is decremented each time a temp is
    stored, and incremeted when loaded again */
-static int tmpOffset = 0;
+static int tmpOffset = 1;
 
 /* prototype for internal recursive code generator */
 static void insertQuad(TreeNode *tree);

@@ -34,7 +34,8 @@ int main( int argc, char * argv[] ) {
   tabela_simbolos = fopen("tabela_simbolos.out", "w+");           //Arquivo com a Tabela de Simbolos 
   quadruplas = fopen("quadruplas.out", "w+");                     //Arquivo com as Quadrulhas do Codigo Intermediario
   assembly_code = fopen("assembly_code.out", "w+");              //Arquivo com as Instruções Assembly do Codigo Assembly
-  binary_code = fopen("binary_code.out", "w+");                   //Arquivo com as Palavras de 32 bits do Codigo Binário
+  binary_code = fopen("binary_code.out", "w+");
+  binary_code1 = fopen("binary_code.out", "w+");                     //Arquivo com as vras de 32 bits do Codigo Binário
 
   yyin = input_code;
 
